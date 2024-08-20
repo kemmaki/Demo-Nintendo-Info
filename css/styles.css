@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #ca1111;
+    padding: .5em 0;
+    top:0;
+    position: fixed;
+    width: 100%;
+
+}
+  li {
+ display: inline;
+    margin: 0 1em;
+    align-items: right;
+ 
+      
+}
+li a {
+   
+    color: white;
+    text-decoration: none;
+  }
+ul{
+    float: right;
+    margin-right: 100px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: .5em 0;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+}
+
+
+.Products{
+    display: flex;
+
+    flex-wrap:wrap
+}
+
+.Product-Flex{
+display: flex;
+flex-direction:column;
+margin-left: 100px;
+margin-top: 20px;
+border-color: #333;
+border-width: 4px;
+}
+
+.about{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.blable{
+background-color: #ca1111;
+border-color:transparent;
+color:#FFFFFF;
+font-size:large;
+}
+
+.button{
+background-color:#ca1111;
+  border-color: #FFFFFF #327CB5 #327CB5 #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 3px #333333;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#intro-div{
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    flex-direction: inline;
+   
+
+}
+#intro{
+    font-size: larger;
+    padding: 1em 0;
+    margin: 20px;
+    color:#ffffff;
+    
+}
+
+
+
+#overview{
+display: flex;
+flex-direction: row;
+}
+
+
+.HPbutton{
+background-color:#ca1111;
+  border-color: #FFFFFF #327CB5 #327CB5 #FFFFFF;
+  border-radius: 80px 80px 80px 80px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 3px #333333;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000000;
+  margin-bottom: 3px;
+  margin-top: 40px;
+  
+}
+
+
+.F-flex{
+    display: flex;
+flex-direction: column;
+margin:0;
+padding: 1em 0;
+align-items: center;
+border-radius: 30px 30px 30px 30px;
+
+}
+
+.f-img{
+    height: 200px;
+    align-content: center;
+}
+
+#Nintendo{
+ display: flex;
+align-items: center;
+padding: 1em 0;
+margin-top: 70px;
+flex-direction: column;
+}
+
+#F-intro{
+    display: flex;
+margin-top: 100px;
+}
+  
